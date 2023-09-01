@@ -29,10 +29,6 @@ ul{
 .sem-borda{
     border: none;
 }
-
-
-
-
 /* Topo */
 
 header{
@@ -53,13 +49,23 @@ header #logo a{
 
 header #logo img{
     filter: invert(70%);
+    padding-right: 2px;
 }
 
 header #logo{
     align-self: flex-end;
     justify-self: center;
-    padding: 2px 5px;
+    margin: 2px 5px;
     width: 110px;
+    display: flex;
+}
+
+header #logo h2{
+    padding-bottom: 2px;
+}
+
+#nome-pagina{
+    align-self: flex-end;
 }
 
 header li{
@@ -191,7 +197,7 @@ body#login a.login{
     }
     header #logo img{
         width: 40px;
-        padding-right: 2px;
+        
     }
 
     #nav-topo{
